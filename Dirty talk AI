@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DirtyTalk AI - Tease Your Senses</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>document.addEventListener('DOMContentLoaded', () => {
+    const button = document.querySelector('.cta-button');
+    button.addEventListener('click', (e) => {
+       body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #660000);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background-color: #ff3366;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #cc2952;
+}
+ e.preventDefault();
+        alert('Thanks for your interest! Waitlist sign-up coming soon.');
+    });
+});
+
+    <div class="hero">
+        <h1>DirtyTalk AI</h1>
+        <p>The AI-powered voice & chat experience for grown folks.</p>
+        <a href="#" class="cta-button">Join the Waitlist</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
