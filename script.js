@@ -1,3 +1,7 @@
-document.querySelector('.cta-button').addEventListener('click', function() {
-    alert("Coming soon. Stay tuned!");
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.querySelector('.cta-button');
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('Thanks for your interest! Waitlist sign-up coming soon.');
+    });
 });

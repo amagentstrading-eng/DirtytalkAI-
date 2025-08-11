@@ -1,27 +1,39 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(135deg, #1a1a1a, #660000);
     color: #fff;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .hero {
-    padding: 100px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
 }
 
 .cta-button {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 30px;
-    background-color: #ff4081;
+    padding: 0.8em 1.5em;
+    background-color: #ff3366;
     color: white;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 30px;
-    transition: background-color 0.3s;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #e73370;
+    background-color: #cc2952;
 }
